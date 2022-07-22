@@ -1,0 +1,86 @@
+* {
+    font-weight: 150;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: #f2f3f4;
+    text-shadow: 0 1px 1px 0 darkslategray;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.aquaBg {
+    background-color: #038C9E;   ;
+}
+
+/* nav*/
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 0.1em solid #f2f3f4;
+}
+
+.navDivs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navDivs img {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    margin-left: 0.7em;
+    border-radius: 50%;
+    border: 0.1em solid #f2f3f4;
+}
+
+.navBtns {
+    font-size: 30px;
+    padding: 0.3em 1em;
+}
+
+/* Footer */
+footer {
+    align-content: stretch;
+    flex-flow: row wrap !important;
+    justify-content: space-evenly !important;
+    border-top: 1px solid #f2f3f4;
+}
+
+footer div {
+    padding: 0.5em;
+}
+
+/* containers */
+#container {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.contentHolder {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}

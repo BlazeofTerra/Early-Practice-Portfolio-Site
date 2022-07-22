@@ -1,0 +1,22 @@
+#title {
+    padding: 0.3em;
+}
+
+#theGoods {
+    padding: 0.5em 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#textWall {
+    padding-bottom: 2em;
+}
+
+#textWall h2 {
+    padding: 0.5em;
+}
+
+#textWall h3 {
+    padding-bottom: 0.2em;
+}

@@ -1,0 +1,16 @@
+#portContainer {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.portExample {
+    padding: 0.5em 0;
+}
+
+.portExample img {
+    width: 30em;
+    padding: 0.5em 0;
+}

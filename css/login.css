@@ -1,0 +1,22 @@
+form {
+    padding: 1em 0;
+}
+
+form input {
+    margin-bottom: 0.5em;
+}
+
+#radioHolder {
+    flex-flow: row wrap !important;
+}
+
+#radioHolder div {
+    padding: 0.5em;
+}
+
+#submitBtn {
+    border: 1px solid #f2f3f4;
+    border-radius: 0.2em;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
